@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Pac-Man -- DZ </title>
+	
+		<link rel="shortcut icon" href="abc.png">
+		<style>
+			*{padding:0;margin:0;}
+			.wrapper{
+				width: 960px;
+				margin:0 auto;
+				color:#999;
+			}
+			canvas{display:block;background: #000;}
+			.info{
+				line-height: 30px;
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			p{
+				line-height: 24px;
+				text-indent: 2em;
+				font-size: 14px;
+			}
+			.mod-botton{
+				height: 32px;
+				padding: 15px 0;
+				text-align: center;
+			}
+		</style>
+	 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+	 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+	</head>
+	<body>
+		<div class="wrapper" style="margin-top: 15px;">
+			<canvas id="canvas" width="960" height="640"></canvas>
+			<div class="info"></div>
+			<p>。</p>
+			<div class="mod-botton">
+			
+				
+			</div>
+		</div>
+		<script src="game.js"></script>
+		<script src="index.js"></script>
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+		<div style="display: none;">
+			<script src="http://s95.cnzz.com/z_stat.php?id=1258310068&web_id=1258310068"></script>
+		</div>
+		<script>
+		(function(){
+		    var bp = document.createElement('script');
+		    var curProtocol = window.location.protocol.split(':')[0];
+		    if (curProtocol === 'https') {
+		        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+		    }
+		    else {
+		        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+		    }
+		    var s = document.getElementsByTagName("script")[0];
+		    s.parentNode.insertBefore(bp, s);
+		})();
+		</script>
+	</body>
+</html>
